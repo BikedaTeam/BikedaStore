@@ -24,11 +24,17 @@
                         <Insets />
                      </VBox.margin>
                      <columns>
-                        <JFXTreeTableColumn fx:id="col_issuCnt" minWidth="133" prefWidth="150.0" resizable="false" text="                                                                                                                                            " />
-                        <JFXTreeTableColumn fx:id="col_date" minWidth="133" prefWidth="150.0" resizable="false" text="발급일자" />
-                        <JFXTreeTableColumn fx:id="col_status" minWidth="100.0" prefWidth="150.0" resizable="false" text="처리구분" />
-                        <JFXTreeTableColumn fx:id="col_time" minWidth="133" prefWidth="150.0" resizable="false" text="발급시간" />
-                        <JFXTreeTableColumn fx:id="col_money" minWidth="133" prefWidth="167.0" resizable="false" text="수수료" />
+                        <JFXTreeTableColumn fx:id="col_issuCnt" maxWidth="-1.0" minWidth="-Infinity" prefWidth="-1.0" resizable="false" text="경과시간" />
+                        <JFXTreeTableColumn fx:id="col_date" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="주문시간" />
+                        <JFXTreeTableColumn fx:id="col_date1" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="목적지" />
+                        <JFXTreeTableColumn fx:id="col_status" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="배차기사" />
+                        <JFXTreeTableColumn fx:id="col_time" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="상태" />
+                        <JFXTreeTableColumn fx:id="col_money" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="결제구분" />
+                        <JFXTreeTableColumn fx:id="col_money1" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="주문금액" />
+                        <JFXTreeTableColumn fx:id="col_money2" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="배달금액" />
+                        <JFXTreeTableColumn fx:id="col_money3" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="배차일시" />
+                        <JFXTreeTableColumn fx:id="col_money4" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="픽업일시" />
+                        <JFXTreeTableColumn fx:id="col_money5" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" resizable="false" text="주문금액" />
                      </columns>
                   </JFXTreeTableView>
                </children>
