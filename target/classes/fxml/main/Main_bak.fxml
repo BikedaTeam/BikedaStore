@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXRippler?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+	<!-- Header -->
+	<BorderPane>
+
+		<!-- Content Area -->
+		<center>
+			<JFXDrawer fx:id="drawer" defaultDrawerSize="250" direction="LEFT">
+				<styleClass>
+					<String fx:value="body" />
+				</styleClass>
+			</JFXDrawer>
+		</center>
+      <top>
+         <JFXToolbar BorderPane.alignment="CENTER_RIGHT">
+            <leftItems>
+               <JFXRippler maskType="CIRCLE" style="-fx-ripple-color:WHITE;">
+                  <control>
+                     <StackPane fx:id="titleBurgerContainer" />
+                  </control>
+               </JFXRippler>
+               <Label />
+            </leftItems>
+            <BorderPane.margin>
+               <Insets />
+            </BorderPane.margin>
+            <right>
+               <HBox BorderPane.alignment="CENTER">
+                  <children>
+	                  <JFXRippler maskType="RECT" style="-fx-ripple-color:WHITE;">
+	                     <StackPane fx:id="mCardIss">
+	                        <children>
+	                           <Label text="카드발급" />
+	                        </children>
+	                     </StackPane>
+                     </JFXRippler>
+                     <JFXRippler maskType="RECT" style="-fx-ripple-color:WHITE;">
+	                     <StackPane fx:id="mDigSet">
+	                        <children>
+	                           <Label text="도안설정" />
+	                        </children>
+	                     </StackPane>
+	                 </JFXRippler>
+	                 <JFXRippler maskType="RECT" style="-fx-ripple-color:WHITE;">
+	                     <StackPane fx:id="mReport">
+	                        <children>
+	                           <Label text="리포트" />
+	                        </children>
+	                     </StackPane>
+	                 </JFXRippler>
+	                 <JFXRippler maskType="RECT" style="-fx-ripple-color:WHITE;">
+	                     <StackPane fx:id="mSystem">
+	                        <children>
+	                           <Label text="시스템" />
+	                        </children>
+	                     </StackPane>
+	                 </JFXRippler>
+                  </children>
+                  <padding>
+                     <Insets right="50.0" />
+                  </padding>
+               </HBox>
+            </right>
+         </JFXToolbar>
+      </top>
+	</BorderPane>
+</StackPane>
