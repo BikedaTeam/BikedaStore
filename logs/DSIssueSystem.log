@@ -1,1 +1,18 @@
 ▶ ERROR 14:59:18 kr.co.bikeda.store.controller.LoginController[loginUser:172] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+�� ERROR 20:11:22 kr.co.bikeda.store.controller.LoginController[loginUser:172] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+�� ERROR 20:14:03 kr.co.bikeda.store.controller.LoginController[loginUser:172] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:16:57 kr.co.bikeda.store.controller.LoginController[loginUser:173] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:17:31 kr.co.bikeda.store.controller.LoginController[loginUser:173] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:18:18 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:19:20 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:20:22 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:21:55 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:25:20 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:29:31 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: java.lang.IllegalStateException: Location is not set.
+▶ ERROR 20:30:59 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:36:02 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:37:15 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:37:35 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:40:53 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
+▶ ERROR 20:49:49 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: java.lang.IllegalStateException: Location is not set.
+▶ ERROR 20:54:03 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: java.lang.IllegalStateException: Location is not set.

@@ -15,31 +15,33 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 @ViewController(value = "/fxml/view/Delivery.fxml", title = "배달 매인")
 public class DeliveryController {
 	private final Logger appLog = LoggerFactory.getLogger(DeliveryController.class);
 	private File path = new File("");
 	
-	@FXML JFXButton btn_regBnkAcc;
+	@FXML JFXButton btn_notice;
 	
 	@PostConstruct
     public void init() {
 		
-		btn_regBnkAcc.setOnAction( e -> {
+		btn_notice.setOnAction( e -> {
 			try {
 				Stage popupStage = new Stage();
 				RegBnkAccController RegBnkAccController = new RegBnkAccController();
 				Parent root;
 				Scene scene;
-				FXMLLoader loader = new FXMLLoader( new File(path.getAbsolutePath()+ "/resources/fxml/view/popup/RegBnkAcc.fxml").toURL() );
+				FXMLLoader loader = new FXMLLoader( new File(path.getAbsolutePath()+ "/resources/fxml/view/popup/notice.fxml").toURL() );
 				loader.setController( RegBnkAccController );
 				root = loader.load();
 				scene = new Scene(root);
-				popupStage.initOwner(btn_regBnkAcc.getParent().getScene().getWindow());
-//				popupStage.initStyle(StageStyle.UNDECORATED);
-//				popupStage.initModality(Modality.WINDOW_MODAL);
+				popupStage.initOwner( btn_notice.getParent().getScene().getWindow() );
+				popupStage.initStyle( StageStyle.UNDECORATED );
+				popupStage.initModality( Modality.WINDOW_MODAL );
 				popupStage.centerOnScreen();
 				popupStage.setScene(scene);
 				popupStage.show();

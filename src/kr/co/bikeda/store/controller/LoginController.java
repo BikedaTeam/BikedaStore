@@ -112,7 +112,8 @@ public class LoginController implements Initializable{
 			        DefaultFlowContainer container = new DefaultFlowContainer();
 			        flowContext = new ViewFlowContext();
 			        flowContext.register( "Stage", stage );
-					flow.createHandler( flowContext ).start( container );
+					flow.createHandler( flowContext )
+					.start( container );
 //		
 			        JFXDecorator decorator = new JFXDecorator( stage, container.getView() );
 			        decorator.setCustomMaximize( true );
@@ -136,7 +137,7 @@ public class LoginController implements Initializable{
 			        final ObservableList< String > stylesheets = scene.getStylesheets();
 			        stylesheets.addAll(StoreMain.class.getResource( "/css/jfoenix-fonts.css" ).toExternalForm(),
 						        		StoreMain.class.getResource( "/css/jfoenix-design.css" ).toExternalForm(),
-						        		StoreMain.class.getResource( "/css/jfoenix-main-demo.css" ).toExternalForm()
+						        		StoreMain.class.getResource( "/css/jfoenix-main.css" ).toExternalForm()
 			                           );
 			        stage.setScene( scene );
 			        stage.initStyle( StageStyle.TRANSPARENT );
@@ -169,6 +170,7 @@ public class LoginController implements Initializable{
 //			        });
 				} catch (FlowException e1) {
 					// TODO Auto-generated catch block
+					e1.printStackTrace();
 					appLog.error( e1.getMessage() );
 				}
 //			}else {
