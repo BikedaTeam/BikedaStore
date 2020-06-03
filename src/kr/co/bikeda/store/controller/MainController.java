@@ -20,7 +20,7 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
 
-@ViewController(value = "/fxml/main/Main.fxml", title = "Material Design Example")
+@ViewController(value = "/fxml/main/Main.fxml", title = "Stage Main")
 public final class MainController {
 	private final static Logger appLog = LoggerFactory.getLogger(MainController.class);
     @FXMLViewFlowContext
