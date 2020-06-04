@@ -109,7 +109,7 @@
                      <children>
                         <JFXButton fx:id="btn_notice" buttonType="RAISED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-font-size: 14px; -fx-background-color: WHITE;" text="공지" />
                         <JFXButton fx:id="btn_deletePic1211" buttonType="RAISED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-font-size: 14px; -fx-background-color: WHITE;" text="통계" GridPane.rowIndex="1" />
-                        <JFXButton fx:id="btn_setting" buttonType="RAISED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-font-size: 14px; -fx-background-color: WHITE;" text="설정" GridPane.columnIndex="1" />
+                        <JFXButton fx:id="btn_setting" buttonType="RAISED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-font-size: 14px; -fx-background-color: WHITE;" text="설정" GridPane.columnIndex="1" GridPane.rowSpan="2" />
                      </children>
                   </GridPane>
                </children>
