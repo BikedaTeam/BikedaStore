@@ -16,9 +16,9 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.stage.Stage;
 
-@ViewController(value = "/fxml/view/popup/RegBnkAcc.fxml", title = "출금계좌 등록")
-public class RegBnkAccController implements Initializable{
-	private final Logger appLog = LoggerFactory.getLogger(RegBnkAccController.class);
+@ViewController(value = "/fxml/view/popup/Notice.fxml", title = "출금계좌 등록")
+public class NoticeController implements Initializable{
+	private final Logger appLog = LoggerFactory.getLogger(NoticeController.class);
 	private File path = new File("");
 	
 	@FXML private JFXButton btn_close;
@@ -27,7 +27,6 @@ public class RegBnkAccController implements Initializable{
 	public void initialize(URL location, ResourceBundle resources) {
 		
 		btn_close.setOnAction( new EventHandler<ActionEvent>() {
-			
 			@Override
 			public void handle(ActionEvent arg0) {
 				// TODO Auto-generated method stub

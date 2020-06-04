@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox spacing="20.0">
+         <children>
+            <Label text="본사 공지사항">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <JFXTreeTableView maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+               <columns>
+                  <TreeTableColumn maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="100.0" text="제목" />
+                  <TreeTableColumn maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="100.0" text="작성일" />
+               </columns>
+            </JFXTreeTableView>
+            <HBox alignment="CENTER_RIGHT" spacing="15.0">
+               <children>
+                  <JFXButton fx:id="btn_close" buttonType="RAISED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="20.0" minWidth="100.0" style="-fx-font-size: 14px; -fx-background-color: WHITE;" text="닫기" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</StackPane>

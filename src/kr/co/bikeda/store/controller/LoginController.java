@@ -108,7 +108,7 @@ public class LoginController implements Initializable{
 //		        Font.loadFont(MainApp.class.getResource("/font/NANUMSQUAREROUNDL.TTF").toExternalForm(), 10);
 //		        Font.loadFont(MainApp.class.getResource("/font/NANUMSQUAREROUNDEB.TTF").toExternalForm(), 10);
 		        try {
-			        Flow flow = new Flow( MainController.class );
+			        Flow flow = new Flow( BaseFrame.class );
 			        DefaultFlowContainer container = new DefaultFlowContainer();
 			        flowContext = new ViewFlowContext();
 			        flowContext.register( "Stage", stage );

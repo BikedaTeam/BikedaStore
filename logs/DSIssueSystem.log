@@ -16,3 +16,4 @@
 ▶ ERROR 20:40:53 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.MainController
 ▶ ERROR 20:49:49 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: java.lang.IllegalStateException: Location is not set.
 ▶ ERROR 20:54:03 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: java.lang.IllegalStateException: Location is not set.
+▶ ERROR 10:34:23 kr.co.bikeda.store.controller.LoginController[loginUser:174] - io.datafx.controller.FxmlLoadException: Can't create controller for class class kr.co.bikeda.store.controller.BaseFrame

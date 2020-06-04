@@ -24,7 +24,7 @@ public class DeliveryController {
 	private final Logger appLog = LoggerFactory.getLogger(DeliveryController.class);
 	private File path = new File("");
 	
-	@FXML JFXButton btn_notice;
+	@FXML JFXButton btn_notice, btn_setting;
 	
 	@PostConstruct
     public void init() {
@@ -32,10 +32,31 @@ public class DeliveryController {
 		btn_notice.setOnAction( e -> {
 			try {
 				Stage popupStage = new Stage();
-				RegBnkAccController RegBnkAccController = new RegBnkAccController();
+				NoticeController RegBnkAccController = new NoticeController();
 				Parent root;
 				Scene scene;
-				FXMLLoader loader = new FXMLLoader( new File(path.getAbsolutePath()+ "/resources/fxml/view/popup/notice.fxml").toURL() );
+				FXMLLoader loader = new FXMLLoader( new File(path.getAbsolutePath()+ "/resources/fxml/view/popup/Notice.fxml").toURL() );
+				loader.setController( RegBnkAccController );
+				root = loader.load();
+				scene = new Scene(root);
+				popupStage.initOwner( btn_notice.getParent().getScene().getWindow() );
+				popupStage.initStyle( StageStyle.UNDECORATED );
+				popupStage.initModality( Modality.WINDOW_MODAL );
+				popupStage.centerOnScreen();
+				popupStage.setScene(scene);
+				popupStage.show();
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+		});
+
+		btn_setting.setOnAction( e -> {
+			try {
+				Stage popupStage = new Stage();
+				NoticeController RegBnkAccController = new NoticeController();
+				Parent root;
+				Scene scene;
+				FXMLLoader loader = new FXMLLoader( new File(path.getAbsolutePath()+ "/resources/fxml/view/popup/Setting.fxml").toURL() );
 				loader.setController( RegBnkAccController );
 				root = loader.load();
 				scene = new Scene(root);
