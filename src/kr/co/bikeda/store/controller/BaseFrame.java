@@ -20,9 +20,9 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
 
-@ViewController(value = "/fxml/main/Main.fxml", title = "Stage Main")
-public final class MainController {
-	private final static Logger appLog = LoggerFactory.getLogger(MainController.class);
+@ViewController(value = "/fxml/main/BaseFrame.fxml", title = "Stage Main")
+public final class BaseFrame {
+	private final static Logger appLog = LoggerFactory.getLogger(BaseFrame.class);
     @FXMLViewFlowContext
     private ViewFlowContext context;
 

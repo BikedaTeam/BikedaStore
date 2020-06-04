@@ -848,7 +848,7 @@
 }
 
 .tree-table-view .column-header .label {
-    -fx-text-fill: #949494;
+    -fx-text-fill: BLACK;
     -fx-padding: 0;
 }
 
